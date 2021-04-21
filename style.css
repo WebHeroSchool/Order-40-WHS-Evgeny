@@ -63,6 +63,7 @@ body {
   margin-bottom: 28px;
   border-color: #000;
   border-width: 2px;
+  color: #8A8A8A;
   font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
 }
 
@@ -79,6 +80,7 @@ body {
 
 .form_notice {
   margin: 0 0;
+  color: #8A8A8A;
 }
 
 .main-girl__right {
@@ -127,5 +129,127 @@ body {
 }
 
 @media (max-width: 768px) {
-  
+  .main-girl__left_content {
+    padding-left: 40px;
+    max-width: 350px;
+  }
+
+  .title {
+    width: 175px;
+    height: 100px;
+    margin-bottom: 13px;
+  }
+
+  .title__dollar {
+    font: 900 100px/100px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .title__prise {
+    margin: 25px 0 0 80px;
+    font: 900 40px/60px 'Playfair Display', arial, helvetica, serif;
+    letter-spacing: 9px;
+  }
+
+  .title__description {
+    margin: 3px 0 0 82px;
+    width: 90px;
+    font: normal 10px/15px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .email_input {
+    margin-bottom: 15px;
+    width: 190px;
+    height: 20px;
+    font: 500 10px/15px 'robotomedium', arial, helvetica, sans-serif;
+  }
+
+  .email_button {
+    padding: 13px 57.5px;
+    margin-bottom: 10px;
+    font: 500 10px/15px 'robotomedium', arial, helvetica, sans-serif;
+  }
+
+  .form_notice {
+    width: 230px;
+    margin: 0 0;
+    font: 500 9px/12px 'robotomedium', arial, helvetica, sans-serif;
+  }
 }
+
+@media (max-width: 580px) {
+  .main-girl__left_content {
+    padding-left: 40px;
+    max-width: 350px;
+  }
+
+  .title {
+    width: 120px;
+    height: 60px;
+    margin-bottom: 13px;
+  }
+
+  .title__dollar {
+    font: 900 70px/70px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .title__prise {
+    margin: 10px 0 0 55px;
+    font: 900 30px/50px 'Playfair Display', arial, helvetica, serif;
+    letter-spacing: 4px;
+  }
+
+  .title__description {
+    margin: 0 0 0 55px;
+    width: 60px;
+    font: normal 7px/10px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .email_input {
+    margin-bottom: 12px;
+    width: 130px;
+    height: 10px;
+    border-width: 1px;
+    font: 500 7px/10px 'robotomedium', arial, helvetica, sans-serif;
+  }
+
+  .email_button {
+    padding: 8px 42.5px;
+    margin-bottom: 8px;
+    font: 500 7px/10px 'robotomedium', arial, helvetica, sans-serif;
+  }
+
+  .form_notice {
+    width: 170px;
+    margin: 0 0;
+    color: #8A8A8A;
+    font: 500 6.5px/8px 'robotomedium', arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 375px) {
+  .main-girl {
+    position: relative;
+  }
+
+  .main-girl__right {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .main-girl__right_image {
+    width: 100%;
+  }
+
+  .main-girl__left {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+
