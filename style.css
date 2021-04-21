@@ -16,6 +16,7 @@ body {
 
 .main-girl__left_content {
   max-width: 370px;
+  margin-top: 4px;
 }
 
 .title {
@@ -64,23 +65,24 @@ body {
   border-color: #000;
   border-width: 2px;
   color: #8a8a8a;
-  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Open Sans', arial, helvetica, sans-serif;
 }
 
 .email_button {
   display: inline-block;
   margin: 0 0 15px 0;
-  padding: 29px 89px 20px 89px;
+  padding: 26px 94px 21px 94px;
   color: #fff;
   background: #000;
   text-decoration: none;
   border: none;
-  font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
+  font: 500 18px/21px 'Open Sans', arial, helvetica, sans-serif;
 }
 
 .form_notice {
   margin: 0 0;
   color: #8a8a8a;
+  font: 500 14px/19px 'Open Sans', arial, helvetica, sans-serif;
 }
 
 .main-girl__right {
@@ -124,7 +126,7 @@ body {
   }
 
   .email_button {
-    padding: 29px 74px 20px 70px;
+    padding: 29px 78px 20px 78px;
   }
 }
 
@@ -160,19 +162,19 @@ body {
     margin-bottom: 15px;
     width: 190px;
     height: 20px;
-    font: 500 10px/15px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 10px/15px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .email_button {
-    padding: 13px 57.5px;
+    padding: 13px 61px;
     margin-bottom: 10px;
-    font: 500 10px/15px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 10px/15px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .form_notice {
     width: 230px;
     margin: 0 0;
-    font: 500 9px/12px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 9px/12px 'Open Sans', arial, helvetica, sans-serif;
   }
 }
 
@@ -209,20 +211,20 @@ body {
     width: 130px;
     height: 10px;
     border-width: 1px;
-    font: 500 7px/10px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 7px/10px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .email_button {
-    padding: 8px 42.5px;
+    padding: 8px 45px;
     margin-bottom: 8px;
-    font: 500 7px/10px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 7px/10px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .form_notice {
     width: 170px;
     margin: 0 0;
     color: #8a8a8a;
-    font: 500 6.5px/8px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 6.5px/8px 'Open Sans', arial, helvetica, sans-serif;
   }
 }
 
@@ -284,19 +286,36 @@ body {
     width: 170px;
     height: 20px;
     border-width: 1px;
-    font: 500 10px/10px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 10px/10px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .email_button {
-    padding: 15px 36px;
+    padding: 15px 40.5px;
     margin-bottom: 12px;
-    font: 500 12px/12px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 12px/12px 'Open Sans', arial, helvetica, sans-serif;
   }
 
   .form_notice {
     width: 200px;
     margin: 0 0;
     color: #8a8a8a;
-    font: 500 8px/10px 'robotomedium', arial, helvetica, sans-serif;
+    font: 500 8px/10px 'Open Sans', arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 403px) {
+  .email_button {
+    padding: 15px 44.5px;
+    margin-bottom: 12px;
+    font: 500 11px/12px 'Open Sans', arial, helvetica, sans-serif;
+  }
+}
+
+@media (max-width: 399px) {
+  .email_button {
+    width: 95px;
+    padding: 15px 53px;
+    margin-bottom: 12px;
+    font: 500 9px/11px 'Open Sans', arial, helvetica, sans-serif;
   }
 }
