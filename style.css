@@ -69,13 +69,12 @@ body {
 .email_button {
   display: inline-block;
   margin: 0 0 15px 0;
-  padding: 29px 89px 19px 86px;
+  padding: 29px 89px 20px 89px;
   color: #fff;
   background: #000;
   text-decoration: none;
   border: none;
   font: 500 18px/21px 'robotomedium', arial, helvetica, sans-serif;
-  letter-spacing: 0;
 }
 
 .form_notice {
