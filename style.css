@@ -44,7 +44,7 @@ body {
   margin: 3px 0 0 112px;
   width: 170px;
   height: 59px;
-  color: #7E7E7E;
+  color: #7e7e7e;
   font: normal 20px/27px 'Playfair Display', arial, helvetica, serif;
 }
 
@@ -87,4 +87,45 @@ body {
 
 .main-girl__right_image {
   width: 100%;
+}
+
+@media (max-width: 1300px) {
+  .main-girl__left_content {
+    padding-left: 100px;
+  }
+}
+
+@media (max-width: 980px) {
+  .main-girl__left_content {
+    padding-left: 40px;
+  }
+
+  .title__dollar {
+    font: 900 140px/140px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .title__prise {
+    margin: 35px 0 0 110px;
+    font: 900 70px/90px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .title__description {
+    font: normal 18px/25px 'Playfair Display', arial, helvetica, serif;
+  }
+
+  .email_input {
+    width: 304px;
+  }
+
+  .email_button {
+    padding: 29px 74px 20px 70px;
+  }
+
+  .main-girl__left_content {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 768px) {
+  
 }
