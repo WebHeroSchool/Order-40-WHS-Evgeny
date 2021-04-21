@@ -230,6 +230,7 @@ body {
   .main-girl {
     position: relative;
     height: 100vh;
+    background: top right no-repeat url(img/girl-pay.jpg);
   }
 
   .main-girl__right {
@@ -302,32 +303,4 @@ body {
     font: 500 8px/10px 'robotomedium', arial, helvetica, sans-serif;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
